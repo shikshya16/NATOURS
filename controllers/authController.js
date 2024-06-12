@@ -15,17 +15,18 @@ const signToken = id => {
 const createSendToken = (user, statusCode, res) => {
     const token = signToken(user._id);
     const cookieOptions = {
-        expires : new Date(
-            Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000),
-            httpOnly : true
+        expires: new Date(
+            Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000
+        ),
+        httpOnly: true
     };
 
-    if (process.env.NODE_ENV === 'production') cookieOptions.secure = true ;
+    if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
 
-    res.cookie('jwt' , token, cookieOptions);
+    res.cookie('jwt', token, cookieOptions);
 
-    //remove password from output
-    user.password = undefined ;
+    // Remove password from output
+    user.password = undefined;
 
     res.status(statusCode).json({
         status: 'success',
@@ -61,13 +62,23 @@ exports.login = catchAsync(async (req, res, next) => {
 });
 
 exports.protect = catchAsync(async (req, res, next) => {
-    // 1. Getting token and checking if it's there
+    // 1. Getting token from headers or cookies
     let token;
+
+    // Check Authorization header
     if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
         token = req.headers.authorization.split(' ')[1];
+        console.log('Token from Authorization header:', token);
+    } 
+    // Check cookies
+    else if (req.cookies && req.cookies.jwt) {
+        token = req.cookies.jwt;
+        console.log('Token from cookies:', token);
     }
 
-    if (!token) {
+    // Check if token exists
+    if (!token || token === 'null') {
+        console.log('No token provided or token is null');
         return next(new AppError('You are not logged in! Please log in to get access.', 401));
     }
 
@@ -77,6 +88,7 @@ exports.protect = catchAsync(async (req, res, next) => {
         decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
         console.log('Decoded Token:', decoded);
     } catch (err) {
+        console.error('Token verification error:', err);
         return next(new AppError('Token is invalid or has expired', 401));
     }
 
@@ -97,14 +109,23 @@ exports.protect = catchAsync(async (req, res, next) => {
     next();
 });
 
+
+
+
+// Other exports remain unchanged...
+
 exports.restrictTo = (...roles) => {
     return (req, res, next) => {
+        // console.log('Required roles:', roles);
+        // console.log('User role:', req.user.role);
+
         if (!roles.includes(req.user.role)) {
             return next(new AppError('You do not have permission to perform this action', 403));
         }
         next();
     };
 };
+
 
 exports.forgotPassword = catchAsync(async (req, res, next) => {
     const user = await User.findOne({ email: req.body.email });
