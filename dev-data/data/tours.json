@@ -21,7 +21,7 @@
     "difficulty": "hard",
     "guides": ["5c8a1d232f8fb814b56fa180", "5c8a1eac2f8fb814b56fa183"],
     "price": 45000,
-    "summary": "A challenging but rewarding trek to the base camp of the world's highest peak, Mount Everest.",
+    "Summary": "A challenging but rewarding trek to the base camp of the world's highest peak, Mount Everest.",
     "description": "The Everest Base Camp Trek is an adventurous journey that takes you through the heart of the Himalayas. This 14-day trek offers stunning views of some of the world's highest peaks and an opportunity to experience the unique culture of the Sherpa people. The trek starts from Kathmandu, leading you to Lukla, Namche Bazaar, Tengboche, Dingboche, Lobuche, Gorak Shep, and finally to Everest Base Camp. It's a challenging but incredibly rewarding experience for those seeking an ultimate trekking adventure.",
     "imageCover": "/public/img/tours/everestbasecamp4.jpg",
     "locations": [
@@ -133,7 +133,7 @@
   "difficulty": "hard",
   "guides": ["5c8a1d232f8fb814b56fa180", "5c8a1eac2f8fb814b56fa183"],
   "price": 13500,
-  "summary": "A breathtaking trek through the diverse landscapes of the Annapurna region.",
+  "Summary": "A breathtaking trek through the diverse landscapes of the Annapurna region.",
   "description": "The Annapurna Circuit Trek is a classic trekking route that takes you through a variety of landscapes ranging from subtropical forests to alpine peaks. This 18-day trek offers spectacular views of the Annapurna and Dhaulagiri mountain ranges, cultural experiences with local ethnic groups, and a challenging yet rewarding journey. Starting from Kathmandu, the trek includes key locations such as Besishahar, Manang, Thorong La Pass, Muktinath, and Jomsom. It's a comprehensive adventure for those seeking an in-depth Himalayan experience.",
   "imageCover": "/public/img/tours/AnnapurnaCircuit4.jpg",
   "locations": [
@@ -228,10 +228,10 @@
   "name": "Langtang Valley Trek",
   "duration": 10,
   "maxGroupSize": 10,
-  "difficulty": "medium",
+  "difficulty": "moderate",
   "guides": ["5c8a1eac2f8fb814b56fa183", "5c8a1d232f8fb814b56fa180"],
   "price": 8850,
-  "summary": "A picturesque trek through the Langtang Valley, known for its stunning scenery and rich cultural heritage.",
+  "Summary": "A picturesque trek through the Langtang Valley, known for its stunning scenery and rich cultural heritage.",
   "description": "The Langtang Valley Trek offers a perfect blend of natural beauty and cultural experiences. This 10-day trek takes you through lush forests, traditional Tamang villages, and provides stunning views of the Langtang Himalayan range. Starting from Kathmandu, the trek includes key locations such as Syabrubesi, Lama Hotel, Langtang Village, Kyanjin Gompa, and back to Kathmandu. It's a rewarding journey for trekkers looking to explore the serene beauty of Nepal's Langtang region.",
   "imageCover": "/public/img/tours/langtang4.jpg",
   "locations": [
@@ -322,7 +322,7 @@
   "difficulty": "hard",
   "guides": ["5c8a1eac2f8fb814b56fa183", "5c8a1d232f8fb814b56fa180"],
   "price": 1200,
-  "summary": "A challenging yet rewarding trek around the majestic Manaslu peak, offering breathtaking views and unique cultural experiences.",
+  "Summary": "A challenging yet rewarding trek around the majestic Manaslu peak, offering breathtaking views and unique cultural experiences.",
   "description": "The Manaslu Circuit Trek is a challenging adventure that takes you around the eighth highest mountain in the world, Mount Manaslu. This 14-day trek offers stunning views of the Himalayas, diverse landscapes, and encounters with various ethnic communities. Starting from Kathmandu, the trek includes key locations such as Soti Khola, Machha Khola, Jagat, Deng, Namrung, Samagaon, and Besisahar. It's an unforgettable journey for experienced trekkers seeking both physical and cultural immersion in the Himalayas.",
   "imageCover": "/public/img/tours/manaslu4.jpg",
   "locations": [
@@ -413,7 +413,7 @@
   "difficulty": "moderate",
   "guides": ["5c8a1f892f8fb814b56fa186", "5c8a22c62f8fb814b56fa18b"],
   "price": 6000,
-  "summary": "A scenic trek through lush forests and traditional Nepali villages, culminating in panoramic views from Poon Hill.",
+  "Summary": "A scenic trek through lush forests and traditional Nepali villages, culminating in panoramic views from Poon Hill.",
   "description": "The Ghorepani Poon Hill Trek is a popular trek in the Annapurna region, known for its stunning sunrise views from Poon Hill. This 10-day trek starts from Pokhara and passes through picturesque villages like Tikhedhunga, Ghorepani, and Ghandruk. Along the way, trekkers get to experience diverse landscapes, lush rhododendron forests, and authentic Nepali culture. The highlight of the trek is the breathtaking sunrise panorama from Poon Hill, offering panoramic views of the Annapurna and Dhaulagiri mountain ranges.",
   "imageCover": "/public/img/tours/ghorepani4.jpeg",
   "locations": [
@@ -483,7 +483,7 @@
   "difficulty": "easy",
   "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f892f8fb814b56fa186"],
   "price": 18000,
-  "summary": "An off-the-beaten-path trek to the mystical kingdom of Upper Mustang, exploring ancient monasteries, caves, and unique Tibetan culture.",
+  "Summary": "An off-the-beaten-path trek to the mystical kingdom of Upper Mustang, exploring ancient monasteries, caves, and unique Tibetan culture.",
   "description": "The Upper Mustang Trek takes you to the hidden kingdom of Lo Manthang, a remote and isolated region of Nepal. This 14-day trek begins and ends in Kathmandu, the capital city of Nepal. The trek follows the ancient trade route to Tibet, offering breathtaking views of the Himalayas and diverse landscapes. Trekkers will explore ancient Buddhist monasteries, caves, and traditional Tibetan villages along the way. The highlight of the trek is the visit to Lo Manthang, the walled capital city of Upper Mustang, known for its unique Tibetan culture and architecture.",
   "imageCover": "/public/img/tours/uppermustang4.jpg",
   "locations": [
@@ -546,7 +546,7 @@
   "difficulty": "easy",
   "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f892f8fb814b56fa186"],
   "price": 5000,
-  "summary": "A scenic trek through the Helambu region, exploring picturesque villages, terraced fields, and lush rhododendron forests.",
+  "Summary": "A scenic trek through the Helambu region, exploring picturesque villages, terraced fields, and lush rhododendron forests.",
   "description": "The Helambu Trek is a short and scenic trek in the Langtang region of Nepal. Starting from Kathmandu, the trek takes you through traditional Sherpa villages, terraced fields, and dense rhododendron forests. Trekkers will have the opportunity to experience the local culture and lifestyle of the Sherpa people, known for their hospitality and warm welcome. The trek offers stunning views of snow-capped mountains and picturesque landscapes. Highlights include visits to the villages of Chisopani, Kutumsang, and Melamchi Gaon.",
   "imageCover": "/public/img/tours/Helambu1.jpeg",
   "locations": [
@@ -609,7 +609,7 @@
   "difficulty": "hard",
   "guides": ["5c8a22c62f8fb814b56fa18c", "5c8a1f892f8fb814b56fa187"],
   "price": 35000,
-  "summary": "An epic trek to the base camp of the world's third highest peak, offering breathtaking mountain scenery and rich cultural experiences.",
+  "Summary": "An epic trek to the base camp of the world's third highest peak, offering breathtaking mountain scenery and rich cultural experiences.",
   "description": "The Kanchenjunga Base Camp Trek is an epic adventure in the eastern region of Nepal, renowned for its breathtaking mountain scenery and rich cultural experiences. This challenging trek takes you to the base camp of Kanchenjunga, the world's third highest peak. Starting from Kathmandu, the trek follows remote trails through lush forests, alpine meadows, and high mountain passes. Trekkers will have the opportunity to encounter diverse flora and fauna, including rare species like the red panda and snow leopard. Highlights of the trek include panoramic views of Kanchenjunga, visits to traditional villages, and interactions with local ethnic communities such as the Rai and Limbu people.",
   "imageCover": "/public/img/tours/Kanchenjunga1.jpeg",
   "locations": [
@@ -679,7 +679,7 @@
   "difficulty": "easy",
   "guides": ["5c8a22c62f8fb814b56fa18d", "5c8a1f892f8fb814b56fa188"],
   "price": 23000,
-  "summary": "An adventurous trek to the base camp of Makalu, the fifth highest peak in the world, offering stunning views of Himalayan landscapes and unique cultural encounters.",
+  "Summary": "An adventurous trek to the base camp of Makalu, the fifth highest peak in the world, offering stunning views of Himalayan landscapes and unique cultural encounters.",
   "description": "The Makalu Base Camp Trek is an adventurous journey to the base camp of Makalu, the fifth highest peak in the world. Starting from Kathmandu, the trek takes you through remote trails, dense forests, and high mountain passes, offering stunning views of Himalayan landscapes along the way. Trekkers will have the opportunity to explore diverse flora and fauna, including rhododendron forests, alpine meadows, and rare wildlife species. Highlights of the trek include panoramic views of Makalu, encounters with local ethnic communities such as the Sherpa, Rai, and Limbu people, and visits to traditional villages and monasteries.",
   "imageCover": "/public/img/tours/Makalu 1.jpeg",
   "locations": [
@@ -749,7 +749,7 @@
   "difficulty": "moderate",
   "guides": ["5c8a22c62f8fb814b56fa18e", "5c8a1f8b2f8fb814b56fa189"],
   "price": 18000,
-  "summary": "A breathtaking trek to the pristine Rara Lake, one of the largest and deepest freshwater lakes in Nepal, surrounded by stunning Himalayan landscapes and rich biodiversity.",
+  "Summary": "A breathtaking trek to the pristine Rara Lake, one of the largest and deepest freshwater lakes in Nepal, surrounded by stunning Himalayan landscapes and rich biodiversity.",
   "description": "The Rara Lake Trek is a breathtaking journey to the pristine Rara Lake, one of the largest and deepest freshwater lakes in Nepal. Starting from Kathmandu, the trek takes you through remote trails, dense forests, and high mountain passes, offering stunning views of Himalayan landscapes along the way. Trekkers will have the opportunity to explore diverse flora and fauna, including rhododendron forests, alpine meadows, and rare wildlife species. Highlights of the trek include panoramic views of Rara Lake, encounters with local ethnic communities such as the Thakuri and Chhetri people, and visits to traditional villages and monasteries.",
   "imageCover": "/public/img/tours/rara1.jpeg",
   "locations": [
